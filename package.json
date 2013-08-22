@@ -3,7 +3,7 @@
     "node": ">= 0.10"
   },
   "name": "encode-quoted-printable",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Encode a string to a quoted printable format for emails",
   "main": "lib/encode-quoted-printable.js",
   "scripts": {
