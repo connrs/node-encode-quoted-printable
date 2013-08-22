@@ -1,0 +1,26 @@
+{
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "name": "encode-quoted-printable",
+  "version": "0.0.1",
+  "description": "Encode a string to a quoted printable format for emails",
+  "main": "lib/encode-quoted-printable.js",
+  "scripts": {
+    "test": "node_modules/tape/bin/tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/connrs/node-encode-quoted-printable.git"
+  },
+  "keywords": [
+    "email",
+    "quoted-printable",
+    "mime"
+  ],
+  "author": "connrs",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+  "dependencies": {
+    "tape": "~1.0.4"
+  }
+}
